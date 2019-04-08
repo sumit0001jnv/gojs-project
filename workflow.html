@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Workflow</title>
+    <meta name="description" content="Nodes with varying lists of ports on each of four sides."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/workflow.css">
+    <script src="js/js2/workflow.js"></script>
+    <script src="js/go-debug.js"></script>
+    <!--<script src="js/go.js"></script>-->
+</head>
+<body onload="init()">
+<div class="menu-pane">
+    <div id="Source" class="menu-con" draggable="true">
+        <img  src="icons/source1.png">
+        <div>Source</div>
+    </div>
+    <div id="Transformation" class="menu-con" draggable="true">
+        <img  src="icons/transformation.png">
+        <div>Transformation</div>
+    </div>
+    <div id="Target" class="menu-con" draggable="true">
+        <img  src="icons/target1.png">
+        <div>Target</div>
+    </div>
+        <img  id="refresh" src="icons/refresh.png">
+</div>
+<div id="myDiagramDiv" class="diagram"></div>
+</body>
+</html>

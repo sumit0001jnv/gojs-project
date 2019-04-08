@@ -1,0 +1,55 @@
+body {font-family: Arial;}
+.menu-pane {
+    overflow: hidden;
+    background-color: #f6ffe2;
+}
+.menu-pane div {
+    float: left;
+    display: block;
+    color: #2F032F;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.menu-pane div:hover {
+
+}
+.menu-con{
+}
+.menu-con div{
+    float: left;
+    display: block;
+    color: #2F032F;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.menu-con img{
+    float: left;
+    padding: 8px 10px;
+    width: 15px;
+    height: auto;
+}
+.menu-con:hover{
+    border-bottom: 1px solid #0e3cd6;
+    cursor: pointer;
+}
+.diagram{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background-color: #FFFDF5;
+    border-top: 1px solid #f1e6ff;
+}
+#refresh{
+    float: right;
+    margin: 8px 10px;
+    padding: 4px 5px;
+    height: 25px;
+    width: 25px;
+}
+#refresh:hover{
+    background: #d3d0ff;
+    cursor: pointer;
+}
